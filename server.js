@@ -13,7 +13,7 @@ app.use(cors());
 
 // http://localhost:5000/ 요청이 오면 was 서버의
 // public 폴더를 찾아서 그 안에 있는 index.html을 서비스하도록 설정
-app.use("/", static(path.join(__dirname, "public")));
+//app.use("/", static(path.join(__dirname, "public")));
 
 // db 접속
 const pool = mysql.createPool({
